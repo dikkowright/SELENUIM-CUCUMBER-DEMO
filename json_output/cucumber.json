@@ -1,0 +1,66 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "to test  facebook",
+        "description": "",
+        "id": "facebook-login;to-test--facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16434394960,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the firefox and start application",
+            "match": {
+              "location": "stepDefinitions.open_the_firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2398201100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid username and valid password",
+            "match": {
+              "location": "stepDefinitions.i_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6661372432,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "stepDefinitions.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "facebook login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "facebooklogin.feature"
+  },
+  {
+    "line": 1,
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
